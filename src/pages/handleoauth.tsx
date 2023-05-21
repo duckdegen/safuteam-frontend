@@ -47,7 +47,7 @@ const HandleOauthPage = () => {
       });
       const resData = await res.json();
       console.log("resData =", resData);
-      push("/verification-complete", undefined, { shallow: true });
+      push("/", undefined, { shallow: true });
     },
   });
 
